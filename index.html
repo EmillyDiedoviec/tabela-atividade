@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela-emilly</title>
+
+    <style>
+        table {
+            width: 100%;
+            border: 1px solid;
+            border-collapse:collapse;
+        }
+
+        th {
+            border: 1px solid;
+            padding:15px ;
+        }
+
+        td {
+            border: 1px solid;
+            padding:15px ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header style="text-align:center;">
+        <h1>PLANO DE ESTUDOS</h1>
+        <img src="./images/image-bonita.png" alt="" style="width: 200px">
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                    <img src="./images/horario.png" alt="" style="width:40px;" >
+                    </th>
+                    <th>SEGUNDA</th>
+                    <th>TERÇA</th>
+                    <th>QUARTA</th>
+                    <th>QUINTA</th>
+                    <th>SEXTA</th>
+                    <th>SABÁDO</th>
+                    <th>DOMINGO</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>07:30-13:00</th>
+                    <td colspan="5" style="text-align:center ;">Colégio</td>
+                    <td colspan="2" style="text-align:center;">Dormir</td>
+                </tr>
+                <tr>
+                    <th>13:00-14:00</th>
+                    <td colspan="5" style="text-align:center;">Voltar para casa e almoçar</td>
+                    <td rowspan="2" style="text-align:center;">Trabalhos/temas</td>
+                    <td rowspan="4" style="text-align:center;">Livre</td>
+                    
+                </tr>
+                <tr>
+                    <th>14:00-18:00</th>
+                    <td colspan="5" style="text-align:center;">Curso Growdev</td>
+                </tr>
+                <tr>
+                    <th>18:00-20:00</th>
+                    <td colspan="5" style="text-align:center;">Estudar</td>
+                    <td rowspan="2" style="text-align:center;">Livre</td>
+                </tr>
+                <tr>
+                    <th>20:00-00:00</th>
+                    <td colspan="5" style="text-align:center">Livre</td>
+                <tr>
+                    <th>00:00-7:30</th>
+                    <td colspan="7" style="text-align:center;">Dormir</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td style="text-align: center;" colspan="8">
+                        <img src="./images/growdev.png" alt="">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    
+    <footer style="text-align: center;">
+        <small>Atividade prática - Tabela Cronograma de Estudos - &copy;Growdev 2022</small>
+    </footer>
+
+</body>
+</html>
